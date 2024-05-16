@@ -1,0 +1,10 @@
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\bin\Debug\DausanDatabase.dacpac
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\bin\Debug\DausanDatabase.dll
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\bin\Debug\DausanDatabase.pdb
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\DausanDatabase.sqlproj.AssemblyReference.cache
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\Model.xml
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\refactor.xml
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\postdeploy.sql
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\predeploy.sql
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\DausanDatabase.dll
+D:\FINAL\DausanIPT101DataBase\DausanDatabase\obj\Debug\DausanDatabase.pdb

@@ -1,0 +1,83 @@
+﻿@page
+@model DausanBigStore.Pages.DashboardModel
+@{
+}
+
+<div class="product-List">
+    <h3>
+        Product Detail
+
+    </h3>
+</div>
+
+
+<form style="margin-bottom:20px;" method="post" asp-page-handler="Add">
+    <div class="form-group">
+        <label for="Product.ProductCode">Code: </label>
+        <input asp-for="Product.ProductCode"
+               class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Product.ProductName">Name: </label>
+        <input asp-for="Product.ProductName"
+               class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Product.ProductPrice">Price: </label>
+        <input asp-for="Product.ProductPrice"
+               class="form-control" />
+    </div>
+
+    <button asp-page-handler="Update" class="btn btn-primary" type="submit">Update</button>    
+    <button  class="btn btn-primary" type="submit">Create</button>
+</form>
+
+
+<div class="product-List">
+   
+    <form asp-page-handler="DisplayBigStore">
+        <label> Product List</label>
+        <button class="btn btn-primary">New</button>
+
+    </form>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var item in Model.ProductList)
+            {
+                <tr>
+                    <td>@item.ProductCode</td>
+                    <td>@item.ProductName</td>
+                    <td>@item.ProductPrice</td>
+                    <td>
+                        <span><a role="button" asp-page="/Index" asp-route-id="@item.ProductCode" asp-page-handler="Edit">Edit</a></span>
+                        <span><a role="button" asp-page="/Index" asp-route-id="@item.ProductCode" asp-page-handler="Delete">Delete</a></span>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<form id="student-search-form" method="post" asp-page-handler="SearchBigStore">
+    <label for="Search.Keyword">Keyword</label>
+    <input asp-for="Search.Keyword" class="form-control" />
+
+    <button class="btn btn-primary" type="submit">Search</button>
+</form>
+
+<style>
+    body {
+        background-color: cadetblue;
+    }
+</style>
+
+ 

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] -DausanBigStore</title>
+    <link rel="stylesheet" href="~/css/ACFrontPage.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    @if (!Model.IsAuthenticated)
+    {
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#">SCC<span> CAFE</span></a>
+                </div>
+                <ul>
+                    <li><a class="logoHome" href="Index">Home</a></li>
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                </ul>
+                <div class="buttons">
+                    <a href="/Login" class="login">Login</a>
+                </div>
+            </nav>
+            <div class="welcome-text">
+                <h2> Welcome To Dausan<span> BigStore</span></h2>
+            </div>
+            <div class="link">
+                <a href="/HomePage" class="visit">Visit</a>
+            </div>
+            <div class="grid">
+                <div class="row row-cols-2">
+                    <div class="box">
+                        <img src="~/css/picture1.png" alt="Image 1">
+                    </div>
+                    <div class="box">
+                        <img src="~/css/picture2.png" alt="Image 2">
+                    </div>
+                    <div class="box">
+                        <img src="~/css/picture3.png" alt="Image 3">
+                    </div>
+                    <div class="box">
+                        <img src="~/css/picture4.png" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    @RenderBody()
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

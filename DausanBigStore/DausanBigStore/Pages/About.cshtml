@@ -1,0 +1,48 @@
+﻿@page
+@model DausanBigStore.Pages.AboutModel
+@{
+    Layout = Model.IsAuthenticated ? "Sign In" : "_UnauthenticatedLayout";
+}
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About SCC CAFE</title>
+    <link rel="stylesheet" href="/css/ACAbout.css">
+</head>
+<body>
+    @if (!Model.IsAuthenticated)
+    {
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a class="logoC" href="#">Dausan<span class="logos">BigStore</span></a>
+                </div>
+                <ul>
+                    <li><a class="logoa" href="/Index">Home</a></li>
+                    <li><a class="logoAbout" href="/About">About</a></li>
+                    <li><a class="logoa" href="/Contact">Contact</a></li>
+                </ul>
+                <div class="buttons">
+                    <a href="/Login" class="logina">Login</a>
+                </div>
+            </nav>
+        </div>
+    }
+    <section>
+        <h2>DausanBigStore:</h2>
+        <p>
+            At Balabagan Lanao Del Sur, Bigstore is an online delivery and e-commerce platform that connects customers with quality and authentic products from stores they trust..
+        </p>
+
+        <h2>About DausanBigStore:</h2>
+        <p>
+            DausanBigStore is a North Cotabato educational institution in Midsayap. It offers its pupils postsecondary education with first-rate support, as seen by its illustrious facilities, including classrooms, labs, libraries, cafeterias, and more.
+        </p>
+        <h2>Start Your Shop Now:</h2>
+        <p>ENJOY!</p>
+    </section>
+
+</body>
+</html>
