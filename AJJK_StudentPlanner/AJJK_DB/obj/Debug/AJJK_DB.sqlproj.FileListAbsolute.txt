@@ -1,0 +1,6 @@
+E:\AJJK_StudentPlanner\AJJK_DB\bin\Debug\AJJK_DB.dacpac
+E:\AJJK_StudentPlanner\AJJK_DB\bin\Debug\AJJK_DB.dll
+E:\AJJK_StudentPlanner\AJJK_DB\bin\Debug\AJJK_DB.pdb
+E:\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.sqlproj.AssemblyReference.cache
+E:\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.dll
+E:\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.pdb

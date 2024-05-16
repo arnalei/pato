@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[AJJK_table].[AJJJK_EDIT_ID] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[AJJK_table] (Table)
+       [dbo].[AJJK_dis] (Procedure)
+       [dbo].[AJJK_sea] (Procedure)
+       [dbo].[AJJK_upd] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[AJJK_add] (Procedure)
+       [dbo].[AJJK_del] (Procedure)
+
+The column [dbo].[AJJK_table].[AJJJK_EDIT_ID] is being dropped, data loss could occur.
+

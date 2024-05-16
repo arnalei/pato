@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<form method="post" asp-page-handler="AJJK_sea">
+    <input name="AJJK_Name2" />
+    <button type="submit">SEARCH</button>
+</form>
+<table class="table">
+    <tr>
+        <th>ID</th><th>NAME</th><th>SUBJECT</th><th>DATE</th><th>DESCRIPTION</th><th>STATUS</th>
+    </tr>
+    @foreach(var AJJK in Model.List)
+    {
+        <tr>
+            <td>@AJJK.AJJK_Id</td><td>@AJJK.AJJK_Name</td><td>@AJJK.AJJK_Subject</td><td>@AJJK.AJJK_Date</td><td>@AJJK.AJJK_Description</td><td>@AJJK.AJJK_Status</td>
+            <td>
+                <form method="post" asp-page-handler="AJJK_del">
+                    <input name="AJJK_EDIT_ID2" value="@AJJK.AJJK_EDIT_ID"hidden />
+                    <input name="AJJK_Id2" value="@AJJK.AJJK_Id" hidden/>
+                    <input name="AJJK_Name2" value="@AJJK.AJJK_Name" hidden/>
+                    <input name="AJJK_Subject2" value="@AJJK.AJJK_Subject" hidden/>
+                    <input name="AJJK_Date2" value="@AJJK.AJJK_Date" hidden/>
+                    <input name="AJJK_Description2" value="@AJJK.AJJK_Description" hidden/>
+                    <input name="AJJK_Status2" value="@AJJK.AJJK_Status" hidden/>
+                    <button type="submit" method="post" asp-page-handler="AJJK_edi">EDIT</button>
+                    <button type="submit">DELETE</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<form method="post" asp-page-handler="AJJK_add">
+    <input name="AJJK_EDIT_ID" value="@Model.AJJK_EDIT_ID" hidden/><br />
+    <input name="AJJK_Id" value="@Model.AJJK_Id" placeholder="ID"/><br />
+    <input name="AJJK_Name" value="@Model.AJJK_Name" placeholder="NAME"/><br />
+    <input name="AJJK_Subject" value="@Model.AJJK_Subject" placeholder="SUBJECT"/><br />
+    <input name="AJJK_Date" value="@Model.AJJK_Date" placeholder="DATE" type="date"/><br />
+    <input name="AJJK_Description" value="@Model.AJJK_Description" placeholder="DESCRIPTION"/><br />
+    <input name="AJJK_Status" value="Finished" type="radio"/>Finished<br />
+    <input name="AJJK_Status" value="OnGoing" type="radio"/>OnGoing<br />
+    <input name="AJJK_Status" value="Unfinished" type="radio"/>Unfinished<br />
+    <button type="submit">CREATE</button>
+    <button type="submit" method="post" asp-page-handler="AJJK_upd">UPDATE</button>
+</form>
