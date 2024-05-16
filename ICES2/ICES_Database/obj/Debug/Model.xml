@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="150" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="ICES_Database.dll" />
+			<Metadata Name="FileName" Value="S:\IPT102\PATO\ICES2\ICES_DATABASE\OBJ\DEBUG\ICES_DATABASE.DLL" />
+			<Metadata Name="AssemblyName" Value="ICES_Database" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="S:\IPT102\pato\ICES2\ICES_Database\obj\Debug\ICES_Database.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[ICESLaws].[ICESLegislationNo]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[ICESLaws]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[ICESComments].[ICES]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[ICESComments]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="4" />
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[accounts].[accountId]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[accounts]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[accounts]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[accounts].[accountId]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="5" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[accounts].[username]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[accounts].[password]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[Create]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN 
+INSERT INTO [dbo].[accounts](username, password)
+VALUES (@username, @password);
+
+END;]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[accounts]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[accounts].[username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[accounts].[password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Create].[@username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Create].[@password]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Create].[@username]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Create].[@password]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="182" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[Create]&#xD;&#xA;&#x9;@username varchar(50),&#xD;&#xA;&#x9;@password varchar(50)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESComAdd]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+INSERT INTO ICESComments
+(ICESIDNO,ICESName,ICESInstitutionalEmail,ICESComment)
+VALUES
+(@ICESIDNO,@ICESName,@ICESInstitutionalEmail,@ICESComment)
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESComments]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESIDNO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESInstitutionalEmail]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESComment]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComAdd].[@ICESIDNO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComAdd].[@ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComAdd].[@ICESInstitutionalEmail]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComAdd].[@ICESComment]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESComAdd].[@ICESIDNO]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESComAdd].[@ICESComment]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESComAdd].[@ICESName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESComAdd].[@ICESInstitutionalEmail]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="321" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESComAdd]&#xD;&#xA;&#x9;@ICESIDNO nvarchar(50),&#xD;&#xA;&#x9;@ICESComment nvarchar(50),&#xD;&#xA;&#x9;@ICESName nvarchar(50),&#xD;&#xA;&#x9;@ICESInstitutionalEmail nvarchar(50)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESComDel]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+DELETE FROM ICESComments
+WHERE ICES = @ICES
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESComments]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComDel].[@ICES]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESComDel].[@ICES]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="109" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESComDel]&#xD;&#xA;&#x9;@ICES INT&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESComDis]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+SELECT
+ICES AS ICES,
+ICESIDNO AS ICESIDNO,
+ICESName AS ICESName,
+ICESInstitutionalEmail AS ICESInstitutionalEmail,
+ICESComment AS ICESComment
+FROM ICESComments
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESComments]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESIDNO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESInstitutionalEmail]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESComment]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="218" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESComDis]&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[ICESComments]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESComments].[ICES]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<AttachedAnnotation Disambiguator="4" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESComments].[ICESIDNO]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESComments].[ICESName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESComments].[ICESInstitutionalEmail]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESComments].[ICESComment]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESComSea]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+SELECT
+ICES AS ICES,
+ICESIDNO AS ICESIDNO,
+ICESName AS ICESName,
+ICESInstitutionalEmail AS ICESInstitutionalEmail,
+ICESComment  AS ICESComment
+FROM ICESComments
+WHERE
+ICES LIKE @ICESSearch OR
+ICESIDNO LIKE @ICESSearch OR
+ICESName LIKE @ICESSearch OR
+ICESInstitutionalEmail LIKE @ICESSearch or
+ICESComment LIKE @ICESSearch
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESComments]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESIDNO]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESInstitutionalEmail]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComments].[ICESComment]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESComSea].[@ICESSearch]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESComSea].[@ICESSearch]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="413" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESComSea]&#xD;&#xA;&#x9;@ICESSearch nvarchar(50)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESLawAdd]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+INSERT INTO ICESLaws
+(ICESLegislationNo,ICESBillPolicy,ICESName,ICESProposedby,ICESStatus)
+VALUES
+(@ICESLegislationNo,@ICESBillPolicy,@ICESName,@ICESProposedby,@ICESStatus)
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESLaws]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESLegislationNo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESBillPolicy]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESProposedby]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESStatus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawAdd].[@ICESLegislationNo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawAdd].[@ICESBillPolicy]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawAdd].[@ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawAdd].[@ICESProposedby]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawAdd].[@ICESStatus]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawAdd].[@ICESLegislationNo]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawAdd].[@ICESBillPolicy]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawAdd].[@ICESName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawAdd].[@ICESProposedby]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawAdd].[@ICESStatus]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="380" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESLawAdd]&#xD;&#xA;&#x9;@ICESLegislationNo nvarchar(50),&#xD;&#xA;&#x9;@ICESBillPolicy nvarchar(50),&#xD;&#xA;&#x9;@ICESName nvarchar(50),&#xD;&#xA;&#x9;@ICESProposedby nvarchar(50),&#xD;&#xA;&#x9;@ICESStatus nvarchar(50)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESLawDel]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+DELETE FROM ICESLaws
+WHERE ICES = @ICES
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESLaws]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawDel].[@ICES]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawDel].[@ICES]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="105" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESLawDel]&#xD;&#xA;&#x9;@ICES int&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESLawDis]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+SELECT
+ICES AS ICES,
+ICESLegislationNo AS ICESLegislationNo,
+ICESBillPolicy AS ICESBillPolicy,
+ICESName AS ICESName,
+ICESProposedby AS ICESProposedby,
+ICESStatus AS ICESStatus
+FROM ICESLaws
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESLaws]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESLegislationNo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESBillPolicy]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESProposedby]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESStatus]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="251" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESLawDis]&#xD;&#xA;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[ICESLaws]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESLaws].[ICES]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESLaws].[ICESLegislationNo]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESLaws].[ICESBillPolicy]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESLaws].[ICESName]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESLaws].[ICESProposedby]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[ICESLaws].[ICESStatus]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="3" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESLawSea]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+SELECT
+ICES AS ICES,
+ICESLegislationNo AS ICESLegislationNo,
+ICESBillPolicy AS ICESBillPolicy,
+ICESName AS ICESName,
+ICESProposedby AS ICESProposedby,
+ICESStatus AS ICESStatus
+FROM ICESLaws
+
+
+WHERE
+ICESLegislationNo LIKE @ICESSearch OR
+ICESBillPolicy LIKE @ICESSearch OR
+ICESName LIKE @ICESSearch OR
+ICESProposedby LIKE @ICESSearch OR
+ICESStatus LIKE @ICESSearch 
+
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESLaws]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESLegislationNo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESBillPolicy]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESProposedby]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESStatus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawSea].[@ICESSearch]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawSea].[@ICESSearch]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="460" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESLawSea]&#xD;&#xA;&#x9;@ICESSearch nvarchar(50)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[ICESLawUpd]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+UPDATE ICESLaws
+SET
+ICESLegislationNo=COALESCE(@ICESLegislationNo,ICESLegislationNo),
+ICESBillPolicy=COALESCE(@ICESBillPolicy,ICESBillPolicy),
+ICESName=COALESCE(@ICESName,ICESName),
+ICESProposedby=COALESCE(@ICESProposedby,ICESProposedby),
+ICESStatus=COALESCE(@ICESStatus,ICESStatus)
+WHERE ICES = @ICES
+
+
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[ICESLaws]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESLegislationNo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawUpd].[@ICESLegislationNo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESBillPolicy]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawUpd].[@ICESBillPolicy]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawUpd].[@ICESName]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESProposedby]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawUpd].[@ICESProposedby]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICESStatus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawUpd].[@ICESStatus]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLaws].[ICES]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[ICESLawUpd].[@ICES]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawUpd].[@ICESLegislationNo]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawUpd].[@ICESBillPolicy]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawUpd].[@ICESName]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawUpd].[@ICESProposedby]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawUpd].[@ICESStatus]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[ICESLawUpd].[@ICES]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="530" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[ICESLawUpd]&#xD;&#xA;&#x9;@ICESLegislationNo nvarchar(50),&#xD;&#xA;&#x9;@ICESBillPolicy nvarchar(50),&#xD;&#xA;&#x9;@ICESName nvarchar(50),&#xD;&#xA;&#x9;@ICESProposedby nvarchar(50),&#xD;&#xA;&#x9;@ICESStatus nvarchar(50),&#xD;&#xA;&#x9;@ICES int&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[Login]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	BEGIN
+    SELECT [D].[username] AS username, [D].[password] AS password
+    FROM [dbo].[accounts] AS D
+    WHERE [D].[username] = @username AND [D].[password] = @password
+END;]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[accounts]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[accounts].[username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[accounts].[password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[accounts].[username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Login].[@username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[accounts].[password]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Login].[@password]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Login].[@username]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Login].[@password]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="50" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[nvarchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="270" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[Login]&#xD;&#xA;&#x9;@username NVARCHAR(50),&#xD;&#xA;    @password NVARCHAR(50)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+	</Model>
+</DataSchemaModel>

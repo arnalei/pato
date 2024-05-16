@@ -1,0 +1,15 @@
+﻿@page
+@model ICES_CSG.Pages.ICESAddCommentModel
+@{
+}
+<a class="btn btn-warning" asp-page="/ICESIndex">Back</a>
+<body style="background-color:midnightblue; color:white;"></body>
+<h1 style="color:gold;">COMMENT SECTION</h1>
+<form method="post" asp-page-handler="ICESAdd">
+    <input name="ICESIDNO" placeholder="ID no." required/>
+    <input name="ICESName" placeholder="Name" required/>
+    <input name="ICESInstitutionalEmail" placeholder="Institutional Email"required />
+    <input name="ICESComment" placeholder="Comment" required/>
+    <button type="submit">Submit</button>
+</form>
+

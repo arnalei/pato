@@ -1,0 +1,35 @@
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.deps.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.pdb
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.csproj.AssemblyReference.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.AssemblyInfoInputs.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.AssemblyInfo.cs
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.csproj.CoreCompileInputs.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\refint\ICES_ClassLib.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.pdb
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_ClassLib\obj\Debug\net6.0\ref\ICES_ClassLib.dll
+C:\ICES2\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.deps.json
+C:\ICES2\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.dll
+C:\ICES2\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.pdb
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.AssemblyInfoInputs.cache
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.AssemblyInfo.cs
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.csproj.CoreCompileInputs.cache
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.dll
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\refint\ICES_ClassLib.dll
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.pdb
+C:\ICES2\ICES_ClassLib\obj\Debug\net6.0\ref\ICES_ClassLib.dll
+S:\IPT102\pato\ICES2\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.deps.json
+S:\IPT102\pato\ICES2\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.dll
+S:\IPT102\pato\ICES2\ICES_ClassLib\bin\Debug\net6.0\ICES_ClassLib.pdb
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.csproj.AssemblyReference.cache
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.AssemblyInfoInputs.cache
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.AssemblyInfo.cs
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.csproj.CoreCompileInputs.cache
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.dll
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\refint\ICES_ClassLib.dll
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ICES_ClassLib.pdb
+S:\IPT102\pato\ICES2\ICES_ClassLib\obj\Debug\net6.0\ref\ICES_ClassLib.dll

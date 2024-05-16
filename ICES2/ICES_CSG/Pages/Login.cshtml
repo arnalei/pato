@@ -1,0 +1,68 @@
+﻿@page
+@model ICES_CSG.Pages.LoginModel
+@{
+    Layout = "LoginLayout";
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <script>
+        function showSignIn() {
+            document.getElementById('signInForm').style.display = 'block';
+            document.getElementById('signUpForm').style.display = 'none';
+            document.getElementById('signInTab').classList.add('active');
+            document.getElementById('signInTab').classList.remove('inactive');
+            document.getElementById('signUpTab').classList.add('inactive');
+            document.getElementById('signUpTab').classList.remove('active');
+        }
+
+        function showSignUp() {
+            document.getElementById('signInForm').style.display = 'none';
+            document.getElementById('signUpForm').style.display = 'block';
+            document.getElementById('signInTab').classList.add('inactive');
+            document.getElementById('signInTab').classList.remove('active');
+            document.getElementById('signUpTab').classList.add('active');
+            document.getElementById('signUpTab').classList.remove('inactive');
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            showSignIn(); // Show sign-in form by default
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <h2 id="signInTab" class="active" onclick="showSignIn()">Sign In</h2>
+            <h2 id="signUpTab" class="inactive underlineHover" onclick="showSignUp()">Sign Up</h2>
+
+            <div class="fadeIn first">
+                <i class='bx bxs-contact'></i>
+            </div>
+
+            <div id="signInForm">
+                <form method="post">
+                    <input asp-for="acc.username" type="text" id="login" class="fadeIn second" name="username" placeholder="UserName">
+                    <input asp-for="acc.password" type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+                    <input asp-page-handler="Login" type="submit" class="fadeIn fourth" value="Log In">
+                </form>
+
+                <div id="formFooter">
+                    <a class="underlineHover" href="#">Forgot Password?</a>
+                </div>
+            </div>
+
+            <div id="signUpForm" style="display:none;">
+                <form method="post">
+                    <input asp-for="acc.username" type="text" class="fadeIn second" name="username" placeholder="UserName">
+                    <input asp-for="acc.password" type="password" class="fadeIn third" name="password" placeholder="Password">
+                    <input type="password" id="confirmPassword" class="fadeIn third" name="confirmPassword" placeholder="Confirm Password">
+                    <input type="submit" asp-page-handler="Create" class="fadeIn fourth" value="Sign Up">
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
