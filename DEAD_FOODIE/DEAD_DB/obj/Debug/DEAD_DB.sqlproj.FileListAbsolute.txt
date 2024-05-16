@@ -1,0 +1,10 @@
+E:\DEAD_FOODIE\DEAD_DB\bin\Debug\DEAD_DB.dacpac
+E:\DEAD_FOODIE\DEAD_DB\bin\Debug\DEAD_DB.dll
+E:\DEAD_FOODIE\DEAD_DB\bin\Debug\DEAD_DB.pdb
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\DEAD_DB.sqlproj.AssemblyReference.cache
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\DEAD_DB.dll
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\DEAD_DB.pdb
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\Model.xml
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\refactor.xml
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\postdeploy.sql
+E:\DEAD_FOODIE\DEAD_DB\obj\Debug\predeploy.sql

@@ -1,0 +1,30 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>Receipt</h1>
+<table class="table">
+    <tr><td>Id</td><td>Name</td><td>Price</td></tr>
+    @foreach (var a in Model.list2)
+    {
+        <tr>
+            <td>@a.DEAD_Id</td>
+            <td>@a.DEAD_Name</td>
+            <td>₱@a.DEAD_Price</td>
+
+        </tr>
+    }
+</table>
+<table class="table">
+    <tr><td><h3>Total Amount</h3></td></tr>
+    @foreach (var a in Model.list3)
+    {
+        <tr>
+            
+            <th>@a.DEAD_Price</th>
+        </tr>
+    }
+</table>
+<h3></h3>
+<h3> Please Pick Up Your Order Later <br /> Please Take a Picture of Your Receipt</h3>
