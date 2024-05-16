@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartinezBlazorApp", "MartinezBlazorApp\MartinezBlazorApp.csproj", "{06998CA3-0985-4401-A445-8B0ED59240F5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06998CA3-0985-4401-A445-8B0ED59240F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06998CA3-0985-4401-A445-8B0ED59240F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06998CA3-0985-4401-A445-8B0ED59240F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06998CA3-0985-4401-A445-8B0ED59240F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BF689E-2F7E-4CC0-85B7-3014D6F21708}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3F8394-C0EB-4F9B-A1A0-B1305D0380D5}
+	EndGlobalSection
+EndGlobal

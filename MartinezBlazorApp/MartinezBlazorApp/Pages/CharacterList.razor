@@ -1,0 +1,137 @@
+﻿@page "/characterlist"
+@inject CharacterDBStore database
+<PageTitle>Character List</PageTitle>
+
+<style>
+    svg {
+        height: 15rem;
+        margin-right: 0;
+    }
+
+    form {
+        min-width: auto;
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        height: 2.8rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .message .form-control {
+        padding: 0.5rem 1.5rem;
+    }
+
+    ::placeholder {
+        font-size: 1rem;
+    }
+
+    .icon {
+        height: 1rem;
+        left: 1rem;
+        top: 0.8rem;
+    }
+
+    .btn.btn-primary {
+        height: 2rem;
+        line-height: 2rem;
+        padding: 0 2rem;
+    }
+
+    .anime-list {
+        margin-top: 2rem;
+    }
+
+    .anime-item {
+        border: 1px solid #ddd;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+    }
+</style>
+
+@if (EditButton)
+{
+    <div class="container d-flex align-items-center justify-content-center">
+        <form @onsubmit="Update" class="col-md-6">
+            <h1 class="title text-center mb-4">Update Character</h1>
+            <div>
+                <input type="hidden" @bind="UpdateCharacter.CharacterId">
+            </div>
+            <div class="form-group position-relative">
+                <label>CharacterName</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateCharacter.CharacterName">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>Gender</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateCharacter.Gender">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>Age</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateCharacter.Age">
+            </div>
+            <div class="form-group position-relative">
+                <label>Description</label>
+                <textarea placeholder="Optional" @bind="UpdateCharacter.Description"></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" tabIndex="-1">Update</button>
+            </div>
+        </form>
+
+    </div>
+}
+else
+{
+    @if (characterList != null)
+    {
+        <div class="container character-list">
+            <h2 class="text-center mb-4">Student List</h2>
+            @foreach (var character in characterList)
+            {
+                <div class="character-item">
+                    <h3>@character.CharacterName</h3>
+                    <p><strong>Age:</strong> @character.Age</p>
+                    <p><strong>Gender:</strong> @character.Gender</p>
+                    <p><strong>Description:</strong> @character.Description</p>
+                </div>
+                <span @onclick="() => Edit(character.CharacterId)" role="button">Edit</span>
+                <span @onclick="() => Delete(character.CharacterId)" role="button">Delete</span>
+            }
+        </div>
+
+    }
+}
+
+
+@code {
+#nullable disable
+    private IEnumerable<Character> characterList;
+    private bool EditButton = false;
+    private Character UpdateCharacter;
+
+    protected override void OnInitialized()
+    {
+        characterList = database.List();
+    }
+    private void Delete(int Id)
+    {
+        database.Delete(Id);
+        characterList = database.List();
+    }
+    private void Edit(int Id)
+    {
+        UpdateCharacter = database.SearchById(Id)?.FirstOrDefault() as Character;
+        EditButton = true;
+
+    }
+    private void Update()
+    {
+        database.Update(UpdateCharacter);
+        EditButton = false;
+        characterList = database.List();
+    }
+}

@@ -1,0 +1,10 @@
+D:\IPT102\MartinezBlazorApp\Database\bin\Debug\Database.dacpac
+D:\IPT102\MartinezBlazorApp\Database\bin\Debug\Database.dll
+D:\IPT102\MartinezBlazorApp\Database\bin\Debug\Database.pdb
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\Database.dll
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\Database.pdb
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\Model.xml
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\refactor.xml
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\postdeploy.sql
+D:\IPT102\MartinezBlazorApp\Database\obj\Debug\predeploy.sql
