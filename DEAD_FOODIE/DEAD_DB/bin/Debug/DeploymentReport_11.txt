@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[DEAD_order] (Table)
+       [dbo].[DEAD_TABLE] (Table)
+       [dbo].[DEAD_add] (Procedure)
+       [dbo].[DEAD_add2] (Procedure)
+       [dbo].[DEAD_del] (Procedure)
+       [dbo].[DEAD_del2] (Procedure)
+       [dbo].[DEAD_dis] (Procedure)
+       [dbo].[DEAD_dis2] (Procedure)
+       [dbo].[DEAD_sea] (Procedure)
+       [dbo].[DEAD_sum2] (Procedure)
+       [dbo].[DEAD_upd] (Procedure)
+
+** Supporting actions

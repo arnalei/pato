@@ -1,0 +1,44 @@
+﻿@page
+@model DEAD_FOOD.Pages.LoginModel
+@{
+    Layout = "LoginLayout";
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FOODIE Login Form</title>
+    <link rel="stylesheet" href="/css/Login.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>FOODIE</h1>
+        <h3>Enter your login credentials</h3>
+        <form method="post">
+            <label for="username">
+                Username:
+            </label>
+            <input asp-for="acc.username" type="text" id="username" placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input asp-for="acc.password" type="password" id="password" placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="submit" asp-page-handler="Login">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <p>
+            Not registered?
+            <a href="/Create" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>

@@ -62,6 +62,7 @@
     <Folder Include="DEAD_dbo\DEAD_storedProcedures" />
     <Folder Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb" />
     <Folder Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order" />
+    <Folder Include="DEAD_dbo\DEAD_storedProcedures\DEAD-Login" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DEAD_DB.publish.xml" />
@@ -78,6 +79,9 @@
     <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_del2.sql" />
     <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_dis2.sql" />
     <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_sum2.sql" />
+    <Build Include="DEAD_dbo\DEAD_table\accounts.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-Login\Login.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-Login\Create.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DEAD_DB.refactorlog" />

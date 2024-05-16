@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using DEAD_CL;
 using Dapper;
 using System.Data;
+#nullable disable
 
 namespace DEAD_FOOD.Pages
 {

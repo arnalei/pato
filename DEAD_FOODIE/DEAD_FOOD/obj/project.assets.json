@@ -521,23 +521,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "S:\\visual studio shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
+      "projectUniqueName": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
       "projectName": "DEAD_FOOD",
-      "projectPath": "E:\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\DEAD_FOODIE\\DEAD_FOOD\\obj\\",
+      "projectPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "S:\\visual studio shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -547,15 +547,14 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj": {
-              "projectPath": "E:\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj"
+            "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj": {
+              "projectPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj"
             }
           }
         }
@@ -598,7 +597,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
