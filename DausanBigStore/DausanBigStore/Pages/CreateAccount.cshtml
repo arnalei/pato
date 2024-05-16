@@ -1,0 +1,36 @@
+﻿@page
+@model DausanBigStore.Pages.CreateAccountModel
+@{
+    Layout = "Sign In";
+    ViewData["Title"] = "Login Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Login Form with validation Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/css/Login.css">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="login-form-wrap">
+        <h2>Sign Up</h2>
+        <form id="login-form" method="post">
+            <p>
+                <input asp-for="createacc.username" type="text"  placeholder="Username" required><i class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <input asp-for="createacc.password" type="password" placeholder="Password" required><i class="validation"><span></span><span></span></i>
+            </p>
+            <button asp-page-handler="Create">Create</button>
+        </form>
+        <div id="create-account-wrap">
+            <p>have a account? <a href="/Index">Login</a><p>
+        </div><!--create-account-wrap-->
+    </div><!--login-form-wrap-->
+    <!-- partial -->
+
+</body>
+</html>

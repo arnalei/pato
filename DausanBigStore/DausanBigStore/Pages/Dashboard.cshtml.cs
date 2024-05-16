@@ -3,6 +3,7 @@
 using Dapper;
 using DausanCoreLib.Models;
 using DausanCoreLib.Stores;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;
@@ -34,8 +35,8 @@ namespace DausanBigStore.Pages
             _store = store;
             _product = product;
             _config = config;
-            var d = new SqlConnection(_config.GetConnectionString("db"));
-            ProductList = d.Query<BigStoreModel>("Select [ProductCode] as ProductCode, [ProductName] as ProductName, [ProductPrice] as ProductPrice from [DBO].[Product]");
+            var d = new SqlConnection(_config.GetConnectionString("DUA"));
+            ProductList = d.Query<BigStoreModel>("displayProduct");
         }
         public IActionResult OnGet()
         {
@@ -43,12 +44,12 @@ namespace DausanBigStore.Pages
             Product = new();
             return Page();
         }
-        public IActionResult OnPostAdd()
+        public IActionResult OnPostAddProduct()
         {
             if (ModelState.IsValid)
             {
-                var d = new SqlConnection(_config.GetConnectionString("db"));
-                var sqlString = "INSERT INTO [dbo].[Product] VALUES(@ProductCode ,@ProductName ,@ProductPrice);";
+                var d = new SqlConnection(_config.GetConnectionString("DUA"));
+                var sqlString = "createProduct";
                 var parameters = new DynamicParameters();
                 parameters.Add("@ProductCode", Product.ProductCode, DbType.String, ParameterDirection.Input);
                 parameters.Add("@ProductName", Product.ProductName, DbType.String, ParameterDirection.Input);
@@ -56,12 +57,12 @@ namespace DausanBigStore.Pages
 
                 d.Execute(sqlString, parameters);
 
-                ProductList = d.Query<BigStoreModel>("Select [ProductCode] as ProductCode, [ProductName] as ProductName, [ProductPrice] as ProductPrice from [DBO].[Product]");
+                ProductList = d.Query<BigStoreModel>("displayProduct");
             }
             return Page();
         }
 
-        public IActionResult OnGetEdit(string code = null)
+        public IActionResult OnGetEditProduct(string code)
         {
 
             if (string.IsNullOrEmpty(code))
@@ -71,18 +72,16 @@ namespace DausanBigStore.Pages
             }
             else
             {
-                using var d = new SqlConnection(_config.GetConnectionString("db"));
-                var sqlString = "Select [ProductCode] as ProductCode, [ProductName] as ProductName, [ProductPrice] as ProductPrice from [dbo].[Product] where [ProductCode] = @ProductCode";
+                using var d = new SqlConnection(_config.GetConnectionString("DUA"));
+                var sqlString = "findProductById";
                 var parameters = new DynamicParameters();
-
                 parameters.Add("@ProductCode", code, DbType.String, ParameterDirection.Input);
-
                 var result = d.Query<BigStoreModel>(sqlString, parameters);
                 Product = result.FirstOrDefault();
             }
             return Page();
         }
-        public IActionResult OnGetDelete(string code = null)
+        public IActionResult OnGetDeleteProduct(string code)
         {
 
 
@@ -94,14 +93,14 @@ namespace DausanBigStore.Pages
             else
             {
                 //_store.DeleteStudent(id
-                using var d = new SqlConnection(_config.GetConnectionString("db"));
-                var sqlString = "DELETE FROM [dbo].[Product] WHERE [ProductCode] = @ProductCode;";
+                using var d = new SqlConnection(_config.GetConnectionString("DUA"));
+                var sqlString = "delete";
                 var parameters = new DynamicParameters();
                 parameters.Add("@ProductCode", code, DbType.String, ParameterDirection.Input);
 
                 d.Execute(sqlString, parameters);
 
-                ProductList = d.Query<BigStoreModel>("SELECT [a].[ProductCode] AS ProductCode ,[a].[ProductName] AS ProductName, [a].[ProductPrice] as ProductPrice FROM [dbo].[Product] AS a WHERE [a].[ProductCode] = @ProductCode");
+                ProductList = d.Query<BigStoreModel>("displayProduct");
             }
 
             return RedirectToPage();
@@ -110,8 +109,8 @@ namespace DausanBigStore.Pages
         {
             if (ModelState.IsValid)
             {
-                var d = new SqlConnection(_config.GetConnectionString("db"));
-                var sqlString = "Update [dbo].[Product] set [ProductName] = @ProductName, [ProductPrice] = @ProductPrice Where [ProductCode] = @ProductCode";
+                var d = new SqlConnection(_config.GetConnectionString("DUA"));
+                var sqlString = "update";
                 var parameters = new DynamicParameters();
                 parameters.Add("@ProductCode", Product.ProductCode, DbType.String, ParameterDirection.Input);
                 parameters.Add("@ProductName", Product.ProductName, DbType.String, ParameterDirection.Input);
@@ -119,7 +118,7 @@ namespace DausanBigStore.Pages
 
                 d.Execute(sqlString, parameters);
 
-                ProductList = d.Query<BigStoreModel>("Select [ProductCode] as ProductCode, [ProductName] as ProductName, [ProductPrice] as ProductPrice from [DBO].[Product]");
+                ProductList = d.Query<BigStoreModel>("displayProduct");
 
             }
             return RedirectToPage();

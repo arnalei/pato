@@ -20,10 +20,6 @@ namespace DausanCoreLib.Models
         private string productcode;
         private string productprice;
 
-        public BigStoreModel()
-        {
-            ProductCode = Guid.NewGuid().ToString();
-        }
         public string ProductName { get => productname; set => productname = value; }
         public string ProductCode { get => productcode; set => productcode = value; }
         public string ProductPrice { get => productprice; set => productprice = value; }

@@ -22,3 +22,15 @@ D:\FINAL\DausanIPT101DataBase\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.dll
 D:\FINAL\DausanIPT101DataBase\DausanCoreLib\obj\Debug\net6.0\refint\DausanCoreLib.dll
 D:\FINAL\DausanIPT101DataBase\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.pdb
 D:\FINAL\DausanIPT101DataBase\DausanCoreLib\obj\Debug\net6.0\ref\DausanCoreLib.dll
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\bin\Debug\net6.0\DausanCoreLib.deps.json
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\bin\Debug\net6.0\DausanCoreLib.dll
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\bin\Debug\net6.0\DausanCoreLib.pdb
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.csproj.AssemblyReference.cache
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.GeneratedMSBuildEditorConfig.editorconfig
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.AssemblyInfoInputs.cache
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.AssemblyInfo.cs
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.csproj.CoreCompileInputs.cache
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.dll
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\refint\DausanCoreLib.dll
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\DausanCoreLib.pdb
+S:\IPT102\pato\DausanBigStore\DausanCoreLib\obj\Debug\net6.0\ref\DausanCoreLib.dll

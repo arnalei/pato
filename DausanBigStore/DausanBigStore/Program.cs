@@ -1,5 +1,6 @@
 using DausanCoreLib.Models;
 using DausanCoreLib.Stores;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,15 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddSingleton<IBigStoreModel, BigStoreModel>();
 builder.Services.AddSingleton<IStore, Store>();
+builder.Services.AddSingleton<Accounts>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Index";
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

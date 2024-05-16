@@ -58,9 +58,18 @@
     <Folder Include="Properties" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\Stored Procedure" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Product.sql" />
+    <Build Include="dbo\Tables\accounts.sql" />
+    <Build Include="dbo\Stored Procedure\Create.sql" />
+    <Build Include="dbo\Stored Procedure\Login.sql" />
+    <Build Include="dbo\Stored Procedure\createProduct.sql" />
+    <Build Include="dbo\Stored Procedure\displayProduct.sql" />
+    <Build Include="dbo\Stored Procedure\findProductById.sql" />
+    <Build Include="dbo\Stored Procedure\delete.sql" />
+    <Build Include="dbo\Stored Procedure\update.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DausanDatabase.refactorlog" />

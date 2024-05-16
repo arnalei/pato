@@ -11,7 +11,7 @@
 </div>
 
 
-<form style="margin-bottom:20px;" method="post" asp-page-handler="Add">
+<form style="margin-bottom:20px;" method="post" asp-page-handler="AddProduct">
     <div class="form-group">
         <label for="Product.ProductCode">Code: </label>
         <input asp-for="Product.ProductCode"
@@ -59,8 +59,8 @@
                     <td>@item.ProductName</td>
                     <td>@item.ProductPrice</td>
                     <td>
-                        <span><a role="button" asp-page="/Index" asp-route-id="@item.ProductCode" asp-page-handler="Edit">Edit</a></span>
-                        <span><a role="button" asp-page="/Index" asp-route-id="@item.ProductCode" asp-page-handler="Delete">Delete</a></span>
+                        <span><a role="button"  asp-route-code="@item.ProductCode" asp-page-handler="EditProduct">Edit</a></span>
+                        <span><a role="button"  asp-route-code="@item.ProductCode" asp-page-handler="DeleteProduct">Delete</a></span>
                     </td>
                 </tr>
             }
