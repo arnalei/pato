@@ -1,0 +1,64 @@
+﻿@page
+@model ICES_CSG.Pages.ICESAddLawsModel
+@{
+}
+<a class="btn btn-warning" asp-page="/ICESPrivacy">LogOut</a>
+<a class="btn btn-warning" asp-page="/ICESComment">Student Comments</a>
+<body style="background-color:midnightblue; color:white;">
+</body>
+<h1 style="color:gold;">Database</h1>
+<form method="post" asp-page-handler="ICESSea">
+    <input name="ICESLegislationNo" placeholder="Search" />
+    <button type="submit">Search</button>
+</form>
+<table class="table" style="color:white;">
+    <tr>
+        <td>
+            LegislationNo
+        </td>
+        <td>
+            Bill
+        </td>
+        <td>
+            Name
+        </td>
+        <td>
+            Proposedby
+        </td>
+        <td>
+            Status
+        </td>
+    </tr>
+    @foreach (var ICES in Model.laws)
+    {
+        <tr>
+            <td>@ICES.ICESLegislationNo</td>
+            <td>@ICES.ICESBillPolicy</td>
+            <td>@ICES.ICESName</td>
+            <td>@ICES.ICESProposedby</td>
+            <td>@ICES.ICESStatus</td>
+            <td>
+                <form method="post" asp-page-handler="ICESEdi">
+                    <input hidden name="ICES2" value="@ICES.ICES" />
+                    <input hidden name="ICESLegislationNo2" value="@ICES.ICESLegislationNo" />
+                    <input hidden name="ICESBillPolicy2" value="@ICES.ICESBillPolicy" />
+                    <input hidden name="ICESName2" value="@ICES.ICESName" />
+                    <input hidden name="ICESProposedby2" value="@ICES.ICESProposedby" />
+                    <input hidden name="ICESStatus2" value="@ICES.ICESStatus" />
+                    <button type="submit">Edit</button>
+                    <button type="submit" method="post" asp-page-handler="ICESDel">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<form method="post" asp-page-handler="ICESAdd">
+    <input hidden name="ICES" value="@Model.ICES" />
+    <input name="ICESLegislationNo" placeholder="LegislationNo" value="@Model.ICESLegislationNo"/>
+    <input name="ICESBillPolicy" placeholder="BillPolicy" value="@Model.ICESBillPolicy"/>
+    <input name="ICESName" placeholder="Name" value="@Model.ICESName"/>
+    <input name="ICESProposedby" placeholder="Proposedby" value="@Model.ICESProposedby"/>
+    <input name="ICESStatus" placeholder="Status" value="@Model.ICESStatus" />
+    <button type="submit">Add</button>
+    <button type="submit" method="post" asp-page-handler="ICESUpd">Update</button>
+</form>

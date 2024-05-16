@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ICES_CSG.props" />
+</Project>

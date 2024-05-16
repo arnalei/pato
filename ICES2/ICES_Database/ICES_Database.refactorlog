@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="3595255d-08fe-4881-96f4-d1d37624bef7" ChangeDateTime="12/11/2023 14:01:32">
+    <Property Name="ElementName" Value="[dbo].[ICESLaws].[ICESIDNO]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ICESLaws]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ICESLegislationNo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e466e22c-24ba-468c-aa44-ee5f9732ad13" ChangeDateTime="12/11/2023 14:01:37">
+    <Property Name="ElementName" Value="[dbo].[ICESLaws].[ICESName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ICESLaws]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ICESBillPolicy" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3b536be3-d021-4ca7-ba6a-4b61d76e3713" ChangeDateTime="12/11/2023 14:01:41">
+    <Property Name="ElementName" Value="[dbo].[ICESLaws].[ICESInstitutionalEmail]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ICESLaws]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ICESName" />
+  </Operation>
+</Operations>

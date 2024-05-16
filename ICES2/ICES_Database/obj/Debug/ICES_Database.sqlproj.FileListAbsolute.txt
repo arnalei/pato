@@ -1,0 +1,12 @@
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_Database\bin\Debug\ICES_Database.dacpac
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_Database\bin\Debug\ICES_Database.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_Database\bin\Debug\ICES_Database.pdb
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_Database\obj\Debug\ICES_Database.sqlproj.AssemblyReference.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_Database\obj\Debug\ICES_Database.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_Database\obj\Debug\ICES_Database.pdb
+C:\ICES2\ICES_Database\bin\Debug\ICES_Database.dacpac
+C:\ICES2\ICES_Database\bin\Debug\ICES_Database.dll
+C:\ICES2\ICES_Database\bin\Debug\ICES_Database.pdb
+C:\ICES2\ICES_Database\obj\Debug\ICES_Database.sqlproj.AssemblyReference.cache
+C:\ICES2\ICES_Database\obj\Debug\ICES_Database.dll
+C:\ICES2\ICES_Database\obj\Debug\ICES_Database.pdb

@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ICES_CSG
+build_property.RootNamespace = ICES_CSG
+build_property.ProjectDir = C:\ICES2\ICES_CSG\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\ICES2\ICES_CSG
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/ICES2/ICES_CSG/Pages/ICESAddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSUNFU0FkZENvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/ICESAddLaws.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSUNFU0FkZExhd3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/ICESComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSUNFU0NvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/ICESError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSUNFU0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/ICESIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSUNFU0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/ICESPrivacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSUNFU1ByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ICES2/ICES_CSG/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3izasvz901

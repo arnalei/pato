@@ -1,0 +1,82 @@
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\appsettings.Development.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\appsettings.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_CSG.staticwebassets.runtime.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_CSG.exe
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_CSG.deps.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_CSG.runtimeconfig.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_CSG.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_CSG.pdb
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\Dapper.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_ClassLib.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\bin\Debug\net6.0\ICES_ClassLib.pdb
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.csproj.AssemblyReference.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.GeneratedMSBuildEditorConfig.editorconfig
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.AssemblyInfoInputs.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.AssemblyInfo.cs
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.csproj.CoreCompileInputs.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.MvcApplicationPartsAssemblyInfo.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.RazorAssemblyInfo.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.RazorAssemblyInfo.cs
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.ICES_CSG.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.build.ICES_CSG.props
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ICES_CSG.props
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ICES_CSG.props
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets.pack.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets.build.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\staticwebassets.development.json
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\scopedcss\bundle\ICES_CSG.styles.css
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\scopedcss\projectbundle\ICES_CSG.bundle.scp.css
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.csproj.CopyComplete
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\refint\ICES_CSG.dll
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.pdb
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ICES_CSG.genruntimeconfig.cache
+E:\ICES_COLLEGE SUPREME GOVERNMENT\ICES_CSG\obj\Debug\net6.0\ref\ICES_CSG.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\appsettings.Development.json
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\appsettings.json
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_CSG.staticwebassets.runtime.json
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_CSG.exe
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_CSG.deps.json
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_CSG.runtimeconfig.json
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_CSG.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_CSG.pdb
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\Dapper.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_ClassLib.dll
+C:\ICES2\ICES_CSG\bin\Debug\net6.0\ICES_ClassLib.pdb
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.csproj.AssemblyReference.cache
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.GeneratedMSBuildEditorConfig.editorconfig
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.AssemblyInfoInputs.cache
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.AssemblyInfo.cs
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.csproj.CoreCompileInputs.cache
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.MvcApplicationPartsAssemblyInfo.cache
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.RazorAssemblyInfo.cache
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.RazorAssemblyInfo.cs
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.ICES_CSG.Microsoft.AspNetCore.StaticWebAssets.props
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.build.ICES_CSG.props
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ICES_CSG.props
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ICES_CSG.props
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets.pack.json
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets.build.json
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\staticwebassets.development.json
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\scopedcss\bundle\ICES_CSG.styles.css
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\scopedcss\projectbundle\ICES_CSG.bundle.scp.css
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.csproj.CopyComplete
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.dll
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\refint\ICES_CSG.dll
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.pdb
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ICES_CSG.genruntimeconfig.cache
+C:\ICES2\ICES_CSG\obj\Debug\net6.0\ref\ICES_CSG.dll
