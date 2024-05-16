@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\AJJK_Planner.props" />
-</Project>
