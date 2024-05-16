@@ -1,0 +1,6 @@
+D:\BaluranIPT101\BaluranBlazorApp\BaluranDatabase\bin\Debug\BaluranDatabase.dacpac
+D:\BaluranIPT101\BaluranBlazorApp\BaluranDatabase\bin\Debug\BaluranDatabase.dll
+D:\BaluranIPT101\BaluranBlazorApp\BaluranDatabase\bin\Debug\BaluranDatabase.pdb
+D:\BaluranIPT101\BaluranBlazorApp\BaluranDatabase\obj\Debug\BaluranDatabase.sqlproj.AssemblyReference.cache
+D:\BaluranIPT101\BaluranBlazorApp\BaluranDatabase\obj\Debug\BaluranDatabase.dll
+D:\BaluranIPT101\BaluranBlazorApp\BaluranDatabase\obj\Debug\BaluranDatabase.pdb

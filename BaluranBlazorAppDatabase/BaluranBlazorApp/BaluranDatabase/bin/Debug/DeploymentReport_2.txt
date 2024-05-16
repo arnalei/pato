@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Profile].[Age] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Profile] (Table)
+       [dbo].[CreateProfile] (Procedure)
+       [dbo].[UpdateProfile] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[DeleteProfile] (Procedure)
+       [dbo].[ReadProfile] (Procedure)
+
+The column [dbo].[Profile].[Age] is being dropped, data loss could occur.
+

@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Profile]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Profile] (Table)
+     Alter
+       [dbo].[CreateProfile] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[DeleteProfile] (Procedure)
+       [dbo].[ReadProfile] (Procedure)
+       [dbo].[UpdateProfile] (Procedure)

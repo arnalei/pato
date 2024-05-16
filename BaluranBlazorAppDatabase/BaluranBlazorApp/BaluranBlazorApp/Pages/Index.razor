@@ -1,0 +1,97 @@
+﻿@page "/"
+@inject Indexdb index
+<PageTitle>Index</PageTitle>
+
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 30px;
+    }
+
+    form {
+        border: 1px solid #3A3B3C;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .input-group {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    label {
+        width: 100px;
+    }
+
+    input,
+    select,
+    textarea {
+        flex: 1;
+        padding: 3px 5px;
+    }
+
+    .submit-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 100px;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+</style>
+
+<form @onsubmit="SubmitNewProfile">
+    <div class="input-group">
+        <label for="fname">Firstname</label>
+        <input id="fname"
+               name="fname"
+               placeholder="Enter firstname"
+               required="required" @bind="NewProfile.FirstName" />
+    </div>
+    <div class="input-group">
+        <label for="lname">Lastname</label>
+        <input id="lname"
+               name="lname"
+               placeholder="Enter lastname"
+               required="required" @bind="NewProfile.LastName" />
+    </div>
+    <div class="input-group">
+        <label for="email">Email</label>
+        <input id="email"
+               type="email"
+               name="email"
+               placeholder="Enter your email" @bind="NewProfile.Email" />
+    </div>
+
+
+    <div class="submit-group">
+        <button type="submit">Submit form</button>
+    </div>
+</form>
+
+@code{
+    #nullable disable
+    private Profile NewProfile = new();
+
+    private void SubmitNewProfile()
+    {
+        index.Create(NewProfile);
+        NewProfile = new();
+    }
+}

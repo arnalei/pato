@@ -1,0 +1,129 @@
+﻿@page "/ProfileList"
+@inject Profilelist database
+<PageTitle>Profile List</PageTitle>
+<style>
+    svg {
+        height: 15rem;
+        margin-right: 0;
+    }
+
+    form {
+        min-width: auto;
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        height: 2.8rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .message .form-control {
+        padding: 0.5rem 1.5rem;
+    }
+
+    ::placeholder {
+        font-size: 1rem;
+    }
+
+    .icon {
+        height: 1rem;
+        left: 1rem;
+        top: 0.8rem;
+    }
+
+    .btn.btn-primary {
+        height: 2rem;
+        line-height: 2rem;
+        padding: 0 2rem;
+    }
+
+    .anime-list {
+        margin-top: 2rem;
+    }
+
+    .anime-item {
+        border: 1px solid #ADD8E6;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+    }
+</style>
+
+@if (EditButton)
+{
+    <div class="container d-flex align-items-center justify-content-center">
+        <form @onsubmit="Update" class="col-md-6">
+            <h1 class="title text-center mb-4">Update Profile</h1>
+            <div>
+                <input type="hidden" @bind="UpdateProfile.Id">
+            </div>
+            <div class="form-group position-relative">
+                <label>FirstName</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateProfile.FirstName">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>LastName</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateProfile.LastName">
+            </div>
+
+            <div class="form-group position-relative">
+                <label>Email</label>
+                <input type="text" class="form-control form-control-lg thick" @bind="UpdateProfile.Email">
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" tabIndex="-1">Update</button>
+            </div>
+       
+        </form>
+
+    </div>
+}
+else
+{
+    @if (profileList != null)
+    {
+        <div class="container profile-list">
+            <h2 class="text-center mb-4">Profile List</h2>
+            @foreach (var profile in profileList)
+            {
+                <div class="anime-item">
+                    <h3>@profile.LastName, @profile.FirstName</h3>
+                    <p><strong>Email Address:</strong> @profile.Email</p>
+  
+                </div>
+                <span @onclick="() => Edit(profile.Id)" role="button">Edit</span>
+                <span @onclick="() => Delete(profile.Id)" role="button">Delete</span>
+            }
+        </div>
+    }
+}
+@code {
+    #nullable disable
+    private IEnumerable<Profile> profileList;
+    private bool EditButton = false;
+    private Profile UpdateProfile;
+
+    protected override void OnInitialized()
+    {
+        profileList = database.list();
+    }
+    private void Delete(int id)
+    {
+        database.Delete(id);
+        profileList = database.list();
+    }
+    private void Edit(int id)
+    {
+        UpdateProfile = database.SearchProfileId(id)?.FirstOrDefault() as Profile;
+        EditButton = true;
+    }
+    private void Update()
+    {
+
+        database.Update(UpdateProfile);
+        EditButton = false;
+        profileList = database.list();
+    }
+}
