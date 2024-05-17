@@ -1,0 +1,48 @@
+﻿@page
+@model SongcayawoninalIPT102ProjectFinal.Pages.PlayerDetailsModel
+@{
+}
+
+<h3>PlayerDetails</h3>
+
+<h1 class="title text-center mb-4">Player Details</h1>
+
+@if (Model.playerOptions != null)
+{
+    <form method="post">
+        <select asp-for="PlayerDetailsId" class="select-option">
+            @foreach (var option in Model.playerOptions)
+            {
+                <option value="@option?.PlayerId">@option?.PlayerName</option>
+            }
+        </select>
+        <button asp-page-handler="PlayerDetailsDisplay" class="btn btn-primary">Check</button>
+    </form>
+}
+
+<div class="form-group position-relative">
+    <label>
+        Name
+    </label>
+    <input asp-for="playD.PlayerName" type="text" class="form-control form-control-lg thick" readonly />
+</div>
+
+<div class="form-group position-relative">
+    <label>
+        Rank
+    </label>
+    <input asp-for="playD.PlayerRank" type="text" class="form-control form-control-lg thick" readonly />
+</div>
+
+<div class="form-group position-relative">
+    <label>
+        Class
+    </label>
+    <input asp-for="playD.PlayerClass" type="text" class="form-control form-control-lg thick" readonly />
+</div>
+
+<div class="text-center">
+    <form method="post" asp-page-handler="PlayerDetailsDelete" asp-route-ID="@Model.playD.PlayerId">
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</div>

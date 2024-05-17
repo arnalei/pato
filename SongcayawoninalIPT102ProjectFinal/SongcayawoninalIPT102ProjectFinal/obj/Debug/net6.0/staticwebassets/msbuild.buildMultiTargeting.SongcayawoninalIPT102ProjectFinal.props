@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SongcayawoninalIPT102ProjectFinal.props" />
+</Project>

@@ -1,0 +1,47 @@
+﻿@page
+@model SongcayawoninalIPT102ProjectFinal.Pages.PlayerDetailsUpdateModel
+@{
+}
+<h1 class="title text-center mb-4">Update Contact</h1>
+
+@if (Model.playerOptions != null)
+{
+    <form method="post">
+        <select class="select-option" asp-for="PlayerDetailsId">
+            @foreach (var option in Model.playerOptions)
+            {
+                <option value="@option?.PlayerId">@option?.PlayerName   </option>
+            }
+        </select>
+        <button asp-page-handler="PlayerDetailsDisplay" class="btn btn-primary">Check</button>
+    </form>
+}
+
+<form method="post">
+
+    <input asp-for="playUpdate.PlayerId" hidden/>
+    <div class="form-group position-relative">
+        <label>
+           Player Name
+        </label>
+        <input type="text" class="form-control form-control-lg thick" asp-for="playUpdate.PlayerName">
+    </div>
+
+    <div class="form-group position-relative">
+        <label>
+            Player Rank
+        </label>
+        <input type="text" class="form-control form-control-lg thick" asp-for="playUpdate.PlayerRank">
+    </div>
+
+    <div class="form-group position-relative">
+        <label>
+           Player Class
+        </label>
+        <input type="text" class="form-control form-control-lg thick" asp-for="playUpdate.PlayerClass">
+    </div>
+
+    <div class="text-center">
+        <button asp-page-handler="PlayerDetailsUpdate" class="btn btn-primary" tabIndex="-1">Update</button>
+    </div>
+</form>

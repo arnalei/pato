@@ -1,0 +1,48 @@
+﻿@page
+@model SongcayawoninalIPT102ProjectFinal.Pages.CreateModel
+@{
+    Layout = "LoginLayout";
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Create Form</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h2>Create</h2>
+        </div>
+        <form method="post">
+            <div class="field">
+                <i class="fa fa-envelope"></i>
+                <input asp-for="createacc.username" type="email" placeholder="Email">
+            </div>
+            <div class="field">
+                <i class="fa fa-lock"></i>
+                <input asp-for="createacc.password" type="password" placeholder="Password">
+            </div>
+            <div class="forgot">
+                <a href="#">Forgot Password ?</a>
+            </div>
+            <div class="login">
+                <button asp-page-handler="Create" type="submit">Create</button>
+            </div>
+            <div class="signup">
+                Have an account ? <a href="/Index">Login</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SongcayawoninalIPT102ProjectFinal.props" />
+</Project>

@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[accounts] (Table)
+       [dbo].[Players] (Table)
+       [dbo].[Create] (Procedure)
+       [dbo].[DeletePlayerDetails] (Procedure)
+       [dbo].[DisplayPlayerDetails] (Procedure)
+       [dbo].[Login] (Procedure)
+       [dbo].[NewPlayerDetails] (Procedure)
+       [dbo].[PlayerOptions] (Procedure)
+       [dbo].[UpdatePlayerDetails] (Procedure)
+
+** Supporting actions

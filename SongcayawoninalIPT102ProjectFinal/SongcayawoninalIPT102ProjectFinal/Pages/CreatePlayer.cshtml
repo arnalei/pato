@@ -1,0 +1,32 @@
+﻿@page
+@model SongcayawoninalIPT102ProjectFinal.Pages.CreatePlayerModel
+@{
+}
+<form method="post">
+    <h1 class="title text-center mb-4">Get Contact</h1>
+
+    <div class="form-group position-relative">
+        <label for="formFirstName">
+            <i class="icon" data-feather="user"></i>
+        </label>
+        <input asp-for="playerInput.PlayerName" type="text" id="formFirstName" class="form-control form-control-lg thick" placeholder="PlayerName">
+    </div>
+
+    <div class="form-group position-relative">
+        <label for="formLastName">
+            <i class="icon" data-feather="mail"></i>
+        </label>
+        <input asp-for="playerInput.PlayerRank" type="text" id="formLastName" class="form-control form-control-lg thick" placeholder="LastName">
+    </div>
+
+    <div class="form-group position-relative">
+        <label for="formEmail">
+            <i class="icon" data-feather="mail"></i>
+        </label>
+        <input asp-for="playerInput.PlayerClass" type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+    </div>
+
+    <div class="text-center">
+        <button asp-page-handler="Create" type="submit" class="btn btn-primary" tabIndex="-1">Save</button>
+    </div>
+</form>
