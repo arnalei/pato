@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\IPT102\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj": {}
+    "D:\\nalie\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj": {}
   },
   "projects": {
-    "S:\\IPT102\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj": {
+    "D:\\nalie\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\IPT102\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj",
+        "projectUniqueName": "D:\\nalie\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj",
         "projectName": "DausanCoreLib",
-        "projectPath": "S:\\IPT102\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "S:\\IPT102\\pato\\DausanBigStore\\DausanCoreLib\\obj\\",
+        "projectPath": "D:\\nalie\\pato\\DausanBigStore\\DausanCoreLib\\DausanCoreLib.csproj",
+        "packagesPath": "C:\\Users\\Arnalie Julia\\.nuget\\packages\\",
+        "outputPath": "D:\\nalie\\pato\\DausanBigStore\\DausanCoreLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "S:\\visual studio shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arnalie Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

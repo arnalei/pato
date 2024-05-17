@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj": {}
+    "D:\\nalie\\pato\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj": {}
   },
   "projects": {
-    "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj": {
+    "D:\\nalie\\pato\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj",
+        "projectUniqueName": "D:\\nalie\\pato\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj",
         "projectName": "MartinezFinalProject",
-        "projectPath": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\obj\\",
+        "projectPath": "D:\\nalie\\pato\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\MartinezFinalProject.csproj",
+        "packagesPath": "C:\\Users\\Arnalie Julia\\.nuget\\packages\\",
+        "outputPath": "D:\\nalie\\pato\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "S:\\visual studio shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arnalie Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

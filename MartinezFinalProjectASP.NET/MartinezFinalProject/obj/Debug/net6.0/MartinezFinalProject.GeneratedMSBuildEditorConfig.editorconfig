@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MartinezFinalProject
 build_property.RootNamespace = MartinezFinalProject
-build_property.ProjectDir = S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezFinalProject\
+build_property.ProjectDir = D:\nalie\pato\MartinezFinalProjectASP.NET\MartinezFinalProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezFinalProject
+build_property.MSBuildProjectDirectory = D:\nalie\pato\MartinezFinalProjectASP.NET\MartinezFinalProject
 build_property._RazorSourceGeneratorDebug = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/CharacterList.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/CharacterList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcmFjdGVyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Create.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Error.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/GetInfo.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/GetInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Index.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Privacy.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Profile.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Shared/LoginLayout.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Shared/LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExvZ2luTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/_ViewImports.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/_ViewStart.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[S:/IPT102/Cardoza/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Shared/_Layout.cshtml]
+[D:/nalie/pato/MartinezFinalProjectASP.NET/MartinezFinalProject/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gca2pjt1ls

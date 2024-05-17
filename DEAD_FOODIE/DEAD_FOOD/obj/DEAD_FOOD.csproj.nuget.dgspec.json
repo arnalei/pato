@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj": {}
+    "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj": {}
   },
   "projects": {
-    "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj": {
+    "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj",
+        "projectUniqueName": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj",
         "projectName": "DEAD_CL",
-        "projectPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\obj\\",
+        "projectPath": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj",
+        "packagesPath": "C:\\Users\\Arnalie Julia\\.nuget\\packages\\",
+        "outputPath": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_CL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "S:\\visual studio shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arnalie Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,20 +64,20 @@
         }
       }
     },
-    "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj": {
+    "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
+        "projectUniqueName": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
         "projectName": "DEAD_FOOD",
-        "projectPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_FOOD\\obj\\",
+        "projectPath": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_FOOD\\DEAD_FOOD.csproj",
+        "packagesPath": "C:\\Users\\Arnalie Julia\\.nuget\\packages\\",
+        "outputPath": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_FOOD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "S:\\visual studio shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arnalie Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj": {
-                "projectPath": "S:\\IPT102\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj"
+              "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj": {
+                "projectPath": "D:\\nalie\\pato\\DEAD_FOODIE\\DEAD_CL\\DEAD_CL.csproj"
               }
             }
           }

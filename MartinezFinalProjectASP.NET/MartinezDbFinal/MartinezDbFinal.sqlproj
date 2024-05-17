@@ -70,4 +70,7 @@
     <Build Include="Stored Procedure\Create.sql" />
     <Build Include="Stored Procedure\Login.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="MartinezDbFinal.publish.xml" />
+  </ItemGroup>
 </Project>

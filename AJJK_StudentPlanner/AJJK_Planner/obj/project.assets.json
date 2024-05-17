@@ -521,23 +521,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "S:\\visual studio shared\\NuGetPackages": {}
+    "C:\\Users\\Arnalie Julia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_Planner\\AJJK_Planner.csproj",
+      "projectUniqueName": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_Planner\\AJJK_Planner.csproj",
       "projectName": "AJJK_Planner",
-      "projectPath": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_Planner\\AJJK_Planner.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_Planner\\obj\\",
+      "projectPath": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_Planner\\AJJK_Planner.csproj",
+      "packagesPath": "C:\\Users\\Arnalie Julia\\.nuget\\packages\\",
+      "outputPath": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_Planner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "S:\\visual studio shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Arnalie Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -553,8 +553,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj": {
-              "projectPath": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj"
+            "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj": {
+              "projectPath": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj"
             }
           }
         }

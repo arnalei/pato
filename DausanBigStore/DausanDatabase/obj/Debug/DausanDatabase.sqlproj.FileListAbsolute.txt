@@ -18,3 +18,9 @@ S:\IPT102\pato\DausanBigStore\DausanDatabase\obj\Debug\Model.xml
 S:\IPT102\pato\DausanBigStore\DausanDatabase\obj\Debug\refactor.xml
 S:\IPT102\pato\DausanBigStore\DausanDatabase\obj\Debug\postdeploy.sql
 S:\IPT102\pato\DausanBigStore\DausanDatabase\obj\Debug\predeploy.sql
+D:\nalie\pato\DausanBigStore\DausanDatabase\bin\Debug\DausanDatabase.dacpac
+D:\nalie\pato\DausanBigStore\DausanDatabase\bin\Debug\DausanDatabase.dll
+D:\nalie\pato\DausanBigStore\DausanDatabase\bin\Debug\DausanDatabase.pdb
+D:\nalie\pato\DausanBigStore\DausanDatabase\obj\Debug\DausanDatabase.sqlproj.AssemblyReference.cache
+D:\nalie\pato\DausanBigStore\DausanDatabase\obj\Debug\DausanDatabase.dll
+D:\nalie\pato\DausanBigStore\DausanDatabase\obj\Debug\DausanDatabase.pdb

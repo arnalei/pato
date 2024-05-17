@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj": {}
+    "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj": {}
   },
   "projects": {
-    "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj": {
+    "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj",
+        "projectUniqueName": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj",
         "projectName": "AJJK_CL",
-        "projectPath": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "S:\\IPT102\\pato\\AJJK_StudentPlanner\\AJJK_CL\\obj\\",
+        "projectPath": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\AJJK_CL.csproj",
+        "packagesPath": "C:\\Users\\Arnalie Julia\\.nuget\\packages\\",
+        "outputPath": "D:\\nalie\\pato\\AJJK_StudentPlanner\\AJJK_CL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "S:\\visual studio shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arnalie Julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

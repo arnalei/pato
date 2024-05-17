@@ -14,3 +14,13 @@ S:\IPT102\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\postdeploy.sql
 S:\IPT102\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\predeploy.sql
 S:\IPT102\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.dll
 S:\IPT102\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.pdb
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\bin\Debug\AJJK_DB.dacpac
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\bin\Debug\AJJK_DB.dll
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\bin\Debug\AJJK_DB.pdb
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.sqlproj.AssemblyReference.cache
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\Model.xml
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\refactor.xml
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\postdeploy.sql
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\predeploy.sql
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.dll
+D:\nalie\pato\AJJK_StudentPlanner\AJJK_DB\obj\Debug\AJJK_DB.pdb
