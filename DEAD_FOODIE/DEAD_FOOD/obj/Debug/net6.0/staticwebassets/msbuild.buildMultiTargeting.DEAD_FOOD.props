@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DEAD_FOOD.props" />
+</Project>
