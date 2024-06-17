@@ -1,0 +1,41 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<style>
+        body {
+            background-color: #e0f7fa; /* Unique color for the entire page */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .profile-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #555;
+        }
+    </style>
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>

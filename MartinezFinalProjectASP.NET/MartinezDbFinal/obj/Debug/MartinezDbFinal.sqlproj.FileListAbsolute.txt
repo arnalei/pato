@@ -1,0 +1,16 @@
+S:\IPT102\Cardoza\MartinezFinalProject\MartinezDbFinal\bin\Debug\MartinezDbFinal.dacpac
+S:\IPT102\Cardoza\MartinezFinalProject\MartinezDbFinal\bin\Debug\MartinezDbFinal.dll
+S:\IPT102\Cardoza\MartinezFinalProject\MartinezDbFinal\bin\Debug\MartinezDbFinal.pdb
+S:\IPT102\Cardoza\MartinezFinalProject\MartinezDbFinal\obj\Debug\MartinezDbFinal.sqlproj.AssemblyReference.cache
+S:\IPT102\Cardoza\MartinezFinalProject\MartinezDbFinal\obj\Debug\MartinezDbFinal.dll
+S:\IPT102\Cardoza\MartinezFinalProject\MartinezDbFinal\obj\Debug\MartinezDbFinal.pdb
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\bin\Debug\MartinezDbFinal.dacpac
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\bin\Debug\MartinezDbFinal.dll
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\bin\Debug\MartinezDbFinal.pdb
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\MartinezDbFinal.sqlproj.AssemblyReference.cache
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\Model.xml
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\refactor.xml
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\postdeploy.sql
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\predeploy.sql
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\MartinezDbFinal.dll
+S:\IPT102\Cardoza\MartinezFinalProjectASP.NET\MartinezDbFinal\obj\Debug\MartinezDbFinal.pdb

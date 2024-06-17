@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|s:\\ipt102\\cardoza\\martinezfinalprojectasp.net\\martinezfinalproject\\pages\\characterlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|solutionrelative:martinezfinalproject\\pages\\characterlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|s:\\ipt102\\cardoza\\martinezfinalprojectasp.net\\martinezfinalproject\\classes\\characterdbstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|solutionrelative:martinezfinalproject\\classes\\characterdbstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE96285-E0A5-4D03-85BC-36969FBA4F91}|MartinezDbFinal\\MartinezDbFinal.sqlproj|S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezDbFinal\\Stored Procedure\\SearchCharacterByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{DDE96285-E0A5-4D03-85BC-36969FBA4F91}|MartinezDbFinal\\MartinezDbFinal.sqlproj|solutionrelative:MartinezDbFinal\\Stored Procedure\\SearchCharacterByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|s:\\ipt102\\cardoza\\martinezfinalprojectasp.net\\martinezfinalproject\\pages\\characterlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|solutionrelative:martinezfinalproject\\pages\\characterlist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|s:\\ipt102\\cardoza\\martinezfinalprojectasp.net\\martinezfinalproject\\pages\\getinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|solutionrelative:martinezfinalproject\\pages\\getinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|s:\\ipt102\\cardoza\\martinezfinalprojectasp.net\\martinezfinalproject\\pages\\getinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|solutionrelative:martinezfinalproject\\pages\\getinfo.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|s:\\ipt102\\cardoza\\martinezfinalprojectasp.net\\martinezfinalproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E31CAF59-C21D-47B9-9D81-87B87A091E10}|MartinezFinalProject\\MartinezFinalProject.csproj|solutionrelative:martinezfinalproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchCharacterByName.sql",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezDbFinal\\Stored Procedure\\SearchCharacterByName.sql",
+              "RelativeDocumentMoniker": "MartinezDbFinal\\Stored Procedure\\SearchCharacterByName.sql",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezDbFinal\\Stored Procedure\\SearchCharacterByName.sql\r\n(localdb)\\ProjectModels.MartinezDbFinal\r\n(DESKTOP-CUHDLQM\\User)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-17T07:06:49.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterDBStore.cs",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Classes\\CharacterDBStore.cs",
+              "RelativeDocumentMoniker": "MartinezFinalProject\\Classes\\CharacterDBStore.cs",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Classes\\CharacterDBStore.cs",
+              "RelativeToolTip": "MartinezFinalProject\\Classes\\CharacterDBStore.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA0wDsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:00:26.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterList.cshtml.cs",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\CharacterList.cshtml.cs",
+              "RelativeDocumentMoniker": "MartinezFinalProject\\Pages\\CharacterList.cshtml.cs",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\CharacterList.cshtml.cs",
+              "RelativeToolTip": "MartinezFinalProject\\Pages\\CharacterList.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:58:06.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CharacterList.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\CharacterList.cshtml",
+              "RelativeDocumentMoniker": "MartinezFinalProject\\Pages\\CharacterList.cshtml",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\CharacterList.cshtml",
+              "RelativeToolTip": "MartinezFinalProject\\Pages\\CharacterList.cshtml",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAQwJ8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T06:57:19.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetInfo.cshtml.cs",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\GetInfo.cshtml.cs",
+              "RelativeDocumentMoniker": "MartinezFinalProject\\Pages\\GetInfo.cshtml.cs",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\GetInfo.cshtml.cs",
+              "RelativeToolTip": "MartinezFinalProject\\Pages\\GetInfo.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:52:43.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetInfo.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\GetInfo.cshtml",
+              "RelativeDocumentMoniker": "MartinezFinalProject\\Pages\\GetInfo.cshtml",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\GetInfo.cshtml",
+              "RelativeToolTip": "MartinezFinalProject\\Pages\\GetInfo.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T19:52:39.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "MartinezFinalProject\\Pages\\Index.cshtml",
+              "ToolTip": "S:\\IPT102\\Cardoza\\MartinezFinalProjectASP.NET\\MartinezFinalProject\\Pages\\Index.cshtml",
+              "RelativeToolTip": "MartinezFinalProject\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T19:52:19.971Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

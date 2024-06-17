@@ -1,0 +1,182 @@
+﻿@page
+@model MartinezFinalProject.Pages.CharacterListModel
+@{
+    ViewData["Title"] = "Character List";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-color: #e0f7fa; /* Unique color for the entire page */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        svg {
+            height: 15rem;
+            margin-right: 0;
+        }
+
+        form {
+            min-width: auto;
+            font-size: 1.8rem;
+        }
+
+        .form-control {
+            height: 2.8rem;
+            padding: 0.5rem 2rem;
+        }
+
+        .message .form-control {
+            padding: 0.5rem 1.5rem;
+        }
+
+        ::placeholder {
+            font-size: 1rem;
+        }
+
+        .icon {
+            height: 1rem;
+            left: 1rem;
+            top: 0.8rem;
+        }
+
+        .btn.btn-primary {
+            height: 2rem;
+            line-height: 2rem;
+            padding: 0 2rem;
+            background-color: #007bff;
+            border-color: #007bff;
+            color: white;
+            border-radius: 0.25rem;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn.btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .anime-list {
+            margin-top: 2rem;
+        }
+
+        .anime-item {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .character-list {
+            background-color: #f9f9f9;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .character-item {
+            background-color: #fff;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .character-item h3 {
+                margin-top: 0;
+            }
+
+            .character-item p {
+                margin: 0.5rem 0;
+            }
+
+            .character-item a {
+                color: #007bff;
+                text-decoration: none;
+                margin-right: 1rem;
+            }
+
+                .character-item a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    @if (Model.EditButton)
+    {
+        <div class="container d-flex align-items-center justify-content-center">
+            <form class="col-md-6" method="post">
+                <h1 class="title text-center mb-4">Update Character</h1>
+                <div>
+                    <input asp-for="UpdateCharacter.CharacterId" type="hidden">
+                </div>
+                <div class="form-group position-relative">
+                    <label>CharacterName</label>
+                    <input asp-for="UpdateCharacter.CharacterName" type="text" class="form-control form-control-lg thick">
+                </div>
+
+                <div class="form-group position-relative">
+                    <label>Gender</label>
+                    <input asp-for="UpdateCharacter.Gender" type="text" class="form-control form-control-lg thick">
+                </div>
+
+                <div class="form-group position-relative">
+                    <label>Age</label>
+                    <input asp-for="UpdateCharacter.Age" type="text" class="form-control form-control-lg thick">
+                </div>
+                <div class="form-group position-relative">
+                    <label>Description</label>
+                    <textarea asp-for="UpdateCharacter.Description" placeholder="Optional"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button asp-page-handler="Update" type="submit" class="btn btn-primary" tabIndex="-1">Update</button>
+                </div>
+            </form>
+        </div>
+    }
+    else
+    {
+        <form style="margin-bottom=20px;" method="post">
+            <input asp-for="UpdateCharacter.CharacterName" /> <button asp-page-handler="SearchCharacterName" class="btn btn-secondary">Search</button>
+        </form>
+        @if (Model.characterList != null)
+        {
+            <div class="container character-list">
+                <h2 class="text-center mb-4">Student List</h2>
+                @foreach (var character in Model.characterList)
+                {
+                    <div class="character-item">
+                        <h3>@character.CharacterName</h3>
+                        <p><strong>Age:</strong> @character.Age</p>
+                        <p><strong>Gender:</strong> @character.Gender</p>
+                        <p><strong>Description:</strong> @character.Description</p>
+                    </div>
+                    <span><a role="button" asp-route-Id="@character.CharacterId" asp-page-handler="Edit">Edit</a></span>
+                    <span><a role="button" asp-route-Id="@character.CharacterId" asp-page-handler="Delete">Delete</a></span>
+                }
+            </div>
+        }
+    }
+</body>
+</html>
