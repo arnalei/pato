@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>DEAD_DB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{979e1ef0-1c62-40f8-883f-7b08c0d63a92}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>DEAD_DB</RootNamespace>
+    <AssemblyName>DEAD_DB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <GenerateCreateScript>False</GenerateCreateScript>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="DEAD_dbo" />
+    <Folder Include="DEAD_dbo\DEAD_table" />
+    <Folder Include="DEAD_dbo\DEAD_storedProcedures" />
+    <Folder Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb" />
+    <Folder Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order" />
+    <Folder Include="DEAD_dbo\DEAD_storedProcedures\DEAD-Login" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DEAD_DB.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="DEAD_dbo\DEAD_table\DEAD_TABLE.sql" />
+    <Build Include="DEAD_dbo\DEAD_table\DEAD_order.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb\DEAD_add.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb\DEAD_del.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb\DEAD_dis.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb\DEAD_sea.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-tb\DEAD_upd.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_add2.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_del2.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_dis2.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-order\DEAD_sum2.sql" />
+    <Build Include="DEAD_dbo\DEAD_table\accounts.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-Login\Login.sql" />
+    <Build Include="DEAD_dbo\DEAD_storedProcedures\DEAD-Login\Create.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DEAD_DB.refactorlog" />
+  </ItemGroup>
+</Project>

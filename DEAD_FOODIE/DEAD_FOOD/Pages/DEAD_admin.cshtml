@@ -1,0 +1,37 @@
+﻿@page
+@model DEAD_FOOD.Pages.DEAD_adminModel
+@{
+}
+<h1>PRODUCTS</h1>
+<form method="post" asp-page-handler="DEAD_sea">
+    <input name="DEAD_Name2">
+    <button type="submit">SEARCH</button>
+</form>
+<table class="table">
+    <tr><td>Id</td><td>Name</td><td>Price</td></tr>
+    @foreach (var a in Model.list)
+    {
+        <tr>
+            <th>@a.DEAD_Id</th>
+            <th>@a.DEAD_Name</th>
+            <th>₱@a.DEAD_Price</th>
+            <td>
+                <form method="post" asp-page-handler="DEAD_edi">
+                    <input hidden name="DEAD_Id2" value="@a.DEAD_Id">
+                    <input hidden name="DEAD_Name2" value="@a.DEAD_Name">
+                    <input hidden name="DEAD_Price2" value="@a.DEAD_Price">
+                    <button type="submit">EDIT</button>
+                    <button method="post" asp-page-handler="DEAD_del" type="submit">DELETE</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<form method="post" asp-page-handler="DEAD_add">
+    <input name="DEAD_Id" value="@Model.DEAD_Id" placeholder="Id" required>
+    <input name="DEAD_Name" value="@Model.DEAD_Name" placeholder="Name" required>
+    <input name="DEAD_Price" value="@Model.DEAD_Price" placeholder="Price" required type="number">
+    <button type="submit">ADD</button>
+    <button method="post" asp-page-handler="DEAD_upd" type="submit">UPDATE</button>
+
+</form>
