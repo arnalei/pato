@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SongcayawoninalIPT102ProjectFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37a0d118fcd703dca66ec2fed11148e688140677")]
 [assembly: System.Reflection.AssemblyProductAttribute("SongcayawoninalIPT102ProjectFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SongcayawoninalIPT102ProjectFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

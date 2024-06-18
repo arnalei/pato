@@ -2050,11 +2050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj",
+      "projectUniqueName": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj",
       "projectName": "SongcayawoninalIPT102ProjectFinal",
-      "projectPath": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj",
+      "projectPath": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\obj\\",
+      "outputPath": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "S:\\visual studio shared\\NuGetPackages"

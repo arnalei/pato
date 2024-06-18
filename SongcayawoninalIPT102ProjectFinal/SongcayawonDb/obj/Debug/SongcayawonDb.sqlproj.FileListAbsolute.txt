@@ -8,3 +8,13 @@ S:\IPT102\Cardoza\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\Mode
 S:\IPT102\Cardoza\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\refactor.xml
 S:\IPT102\Cardoza\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\postdeploy.sql
 S:\IPT102\Cardoza\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\predeploy.sql
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\bin\Debug\SongcayawonDb.dacpac
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\bin\Debug\SongcayawonDb.dll
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\bin\Debug\SongcayawonDb.pdb
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\SongcayawonDb.sqlproj.AssemblyReference.cache
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\Model.xml
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\refactor.xml
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\postdeploy.sql
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\predeploy.sql
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\SongcayawonDb.dll
+S:\IPT102\pato\SongcayawoninalIPT102ProjectFinal\SongcayawonDb\obj\Debug\SongcayawonDb.pdb

@@ -1,0 +1,39 @@
+﻿@page
+@model SongcayawoninalIPT102ProjectFinal.Pages.SearchPlayerModel
+@{
+}
+<form method="post">
+    <input asp-for="plays.PlayerName" /> <button asp-page-handler="Search">Search</button>
+</form>
+</div>
+<div class="table-container">
+    <h2>Player List</h2>
+    @if (Model.AllLogs != null && Model.AllLogs.Any())
+    {
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Rank</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var logEntry in Model.AllLogs)
+                {
+                    <tr>
+                        <td>@logEntry.PlayerId</td>
+                        <td>@logEntry.PlayerName</td>
+                        <td>@logEntry.PlayerRank</td>
+                        <td>@logEntry.PlayerClass</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No players found.</p>
+    }
+</div>

@@ -1,45 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\",
+  "WorkspaceRootPath": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\searchplayer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\searchplayer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\searchplayer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\searchplayer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FD4123-9CDD-4348-BB50-1BB976DBF6C5}|SongcayawonDb\\SongcayawonDb.sqlproj|S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawonDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{08FD4123-9CDD-4348-BB50-1BB976DBF6C5}|SongcayawonDb\\SongcayawonDb.sqlproj|solutionrelative:SongcayawonDb\\Stored Procedure\\SearchByName.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\createplayer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\createplayer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\classes\\condb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\classes\\condb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetailsupdate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\playerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\createplayer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\createplayer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\pages\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\pages\\shared\\loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\cardoza\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|s:\\ipt102\\pato\\songcayawoninalipt102projectfinal\\songcayawoninalipt102projectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{75703EC1-A85C-4B1D-A119-8B546B2A4E7E}|SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal.csproj|solutionrelative:songcayawoninalipt102projectfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -50,80 +78,159 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerDetailsUpdate.cshtml.cs",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
-              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
-              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:11:54.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerDetailsUpdate.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
-              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
-              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T07:11:12.982Z",
+              "DocumentIndex": 2,
+              "Title": "SearchByName.sql",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawonDb\\Stored Procedure\\SearchByName.sql",
+              "RelativeDocumentMoniker": "SongcayawonDb\\Stored Procedure\\SearchByName.sql",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawonDb\\Stored Procedure\\SearchByName.sql\r\n(localdb)\\ProjectModels.SongcayawonDb\r\n(DESKTOP-CUHDLQM\\User)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-18T06:38:01.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerDetails.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
-              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
-              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T06:37:12.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConDb.cs",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Classes\\ConDb.cs",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Classes\\ConDb.cs",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Classes\\ConDb.cs",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Classes\\ConDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:35:45.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchPlayer.cshtml.cs",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml.cs",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml.cs",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml.cs",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:29:37.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchPlayer.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\SearchPlayer.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T06:27:42.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\Privacy.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T07:09:42.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T06:26:52.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerDetails.cshtml.cs",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
-              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:09:41.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreatePlayer.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
-              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
-              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\Error.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Error.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T07:09:31.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T06:26:50.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerDetailsUpdate.cshtml.cs",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:11:54.48Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "PlayerDetailsUpdate.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetailsUpdate.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T07:11:12.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerDetails.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T07:09:42.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerDetails.cshtml.cs",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\PlayerDetails.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:09:41.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreatePlayer.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
+              "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
+              "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\CreatePlayer.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T07:09:31.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LoginLayout.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\LoginLayout.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\LoginLayout.cshtml",
               "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\LoginLayout.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\LoginLayout.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\LoginLayout.cshtml",
               "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\Shared\\LoginLayout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -131,11 +238,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Login.css",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\wwwroot\\css\\Login.css",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\wwwroot\\css\\Login.css",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\wwwroot\\css\\Login.css",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\wwwroot\\css\\Login.css",
               "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\wwwroot\\css\\Login.css",
               "ViewState": "AQIAADUAAAAAAAAAAAAowFUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -143,11 +250,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Program.cs",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Program.cs",
               "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Program.cs",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Program.cs",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Program.cs",
               "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -155,11 +262,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\appsettings.json",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\appsettings.json",
               "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\appsettings.json",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\appsettings.json",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\appsettings.json",
               "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -167,16 +274,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Index.cshtml",
+              "DocumentMoniker": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "SongcayawoninalIPT102ProjectFinal\\Pages\\Index.cshtml",
-              "ToolTip": "S:\\IPT102\\Cardoza\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Index.cshtml",
+              "ToolTip": "S:\\IPT102\\pato\\SongcayawoninalIPT102ProjectFinal\\SongcayawoninalIPT102ProjectFinal\\Pages\\Index.cshtml",
               "RelativeToolTip": "SongcayawoninalIPT102ProjectFinal\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T05:14:42.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T05:14:42.463Z"
             }
           ]
         }
